@@ -1,6 +1,14 @@
 
 public class ElsoOsztaly {
-	public void Kiir() {
-		System.out.println("Ez az elsõ osztály.");
+	private String girlName;
+	public void setName(String name) {
+		girlName = name;
+	}
+	public String getName() {
+		return girlName;
+	}
+	
+	public void saying() {
+		System.out.printf("Az elsõ csajod %s volt.", getName());
 	}
 }
