@@ -1,4 +1,3 @@
-
 public class ElsoOsztaly {
 	private String girlName;
 	public void setName(String name) {
@@ -9,6 +8,6 @@ public class ElsoOsztaly {
 	}
 	
 	public void saying() {
-		System.out.printf("Az elsı csajod %s volt.", getName());
+		System.out.printf("Az els≈ë csajod %s volt.", getName());
 	}
 }
